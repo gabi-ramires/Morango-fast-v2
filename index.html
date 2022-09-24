@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Morango Fast - V2</title>
+    <link rel="icon" href="imagens/morango.png" />
+    <link rel="stylesheet" href="estilo.css">
+</head>
+
+<body id="body">
+
+    <canvas id="idCanvas" width="510" height="410" style="border:1px solid #c3c3c3;">
+        Se seu navegador não suportar HTML5 você verá esta mensagem.
+    </canvas>
+    <div id="placar">
+        <div id="green">
+
+        </div>
+
+        <div id="gold">
+
+        </div>
+    </div>
+    <div class="botoes">
+        <img src="imagens/wasd.png" width="100px">
+        <button id="play" onclick="Fruta()"><strong>PLAY</strong></button>
+        <button id="reset"><strong>RESET</strong></button>
+        <img src="imagens/setas.png" width="100px">
+    </div>
+    <footer class="footer">Desenvolvido por: Gabriela Ramires | Para mais aplicações: <a
+            href="https://gabrielaramires.com.br/">gabrielaramires.com.br</footer>
+
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="sweetalert2.all.min.js"></script>
+    <script src="canvas.js"></script>
+
+</body>
+
+</html>
