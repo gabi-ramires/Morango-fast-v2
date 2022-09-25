@@ -132,12 +132,10 @@ var yF = 200;
 
 function Fruta() {
 
-    console.log("clicou play")
-
-
+    console.log("clicou play");
+    audio.play();
 
     fruta.drawImage(imagem, xF, yF, 25, 25);
-
 
 }
 
