@@ -1,4 +1,4 @@
-var audio = new Audio('audios/audiop3.mp3');
+var audio = new Audio('audios/audiop.mp3');
 var coin = new Audio('audios/coin2.mp3');
 
 audio.play();
