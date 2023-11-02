@@ -3,7 +3,7 @@
 Bem-vindo ao Jogo das Frutinhas, um divertido jogo para duas pessoas onde o objetivo é coletar frutinhas até completar a barra de pontuação e alcançar a vitória. O jogo foi desenvolvido utilizando HTML, JavaScript e CSS e oferece música de fundo, sistema de pontuação e uma condição de vitória.
 
 ## Jogar 🕹️
-Para jogar o Jogo das Frutinhas, acesse o link a seguir: [Jogo das Frutinhas](https://morango-fast.000webhostapp.com/)
+Para jogar o Jogo das Frutinhas, acesse o link a seguir: [Jogo das Frutinhas](https://morango.netlify.app/)
 ## Instruções 🔰
 
 1. Clone ou faça o download deste repositório em sua máquina.
