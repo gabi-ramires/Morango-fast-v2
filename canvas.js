@@ -1,5 +1,6 @@
 var audio = new Audio('audios/audiop.mp3');
 var coin = new Audio('audios/coin2.mp3');
+coin.volume = 0.3;
 
 audio.play();
 
@@ -226,7 +227,7 @@ function Desenha() {
     }
     // pontuar GREEN
     if ((x > (xF - 20)) && (x < (xF + 20)) && (y > (yF - 20)) && (y < (yF + 20))) {
-        var coin = new Audio('audios/coin2.mp3');
+
         coin.play();
         console.log("colidiu")
         pontosGreen = pontosGreen + 1;
@@ -248,7 +249,7 @@ function Desenha() {
 
     // pontuar GOLD
     if ((x2 > (xF - 20)) && (x2 < (xF + 20)) && (y2 > (yF - 20)) && (y2 < (yF + 20))) {
-        var coin = new Audio('audios/coin2.mp3');
+       
         coin.play();
         console.log("colidiu")
         pontosGold = pontosGold + 1;
